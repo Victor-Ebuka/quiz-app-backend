@@ -2,3 +2,4 @@ node_modules
 .vscode
 random.sql
 .env
+dbSeeder.js
