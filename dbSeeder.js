@@ -3,9 +3,9 @@ import he from "he";
 
 const fetchData = async () => {
   try {
-    const category = 17;
+    const category = 16;
     const difficulty = "medium";
-    const type = "boolean";
+    const type = "multiple";
     const response = await fetch(
       `https://opentdb.com/api.php?amount=10&category=${category}&difficulty=${difficulty}&type=${type}`
     );
